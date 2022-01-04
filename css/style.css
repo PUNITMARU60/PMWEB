@@ -11,7 +11,7 @@ html{
 }
 
 ::selection{
-  background-color: #48dbfb60;
+  background-color: #40dbfb60;
 }
 
 ::-webkit-scrollbar{
@@ -104,7 +104,7 @@ html{
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg.jpg) no-repeat center;
+  background: url(../images/55.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -123,7 +123,7 @@ html{
 }
 
 #home .content h1{
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 60px;
 }
 
@@ -133,20 +133,14 @@ html{
 }
 
 @keyframes textanim{
-  25%{
-    content: "A Developer";
-  }
   50%{
-    content: "A GUI Designer";
-  }
-  75%{
-    content: "A Programmer";
+    content: "Programmer";
   }
 }
 
 .sm a{
-  color: #fff;
-  font-size: 22px;
+  color: #BB8FCE;
+  font-size: 20px;
   margin: 0 10px;
   transition: .2s linear;
 }
@@ -175,7 +169,7 @@ html{
 #home .buttons a:hover,
 #home .buttons a:nth-child(2)
 {
-  background-color: #48dbfb;
+  background-color: #BB8FCE;
   color: #fff;
 }
 
@@ -190,7 +184,7 @@ section{
   position: relative;
   font-size: 26px;
   padding-bottom: 20px;
-  color: #111;
+  color: #40204f;
 }
 
 .section-title::before{
@@ -198,7 +192,7 @@ section{
   position: absolute;
   width: 80px;
   height: 3px;
-  background-color: #111;
+  background-color: #273535;
   bottom: 0;
   left: calc(50% - 40px);
 }
@@ -208,7 +202,7 @@ section{
   position: absolute;
   width: 16px;
   height: 10px;
-  background-color: #48dbfb;
+  background-color: #273535;
   border: 4px solid #f1f1f1;
   left: calc(50% - 12px);
   bottom: -7px;
@@ -232,7 +226,7 @@ section{
 
 .about-text h3{
   margin: 10px 0;
-  color: #444;
+  color: #40204f;
   font-size: 16px;
 }
 
@@ -282,7 +276,7 @@ section{
   content: "";
   position: absolute;
   height: 6px;
-  background-color: #48dbfb;
+  background-color: #273535;
   bottom: 0;
 }
 
@@ -311,7 +305,7 @@ section{
 }
 
 section.dark{
-  background-color: #353b48;
+  background-color: #2D3034;
 }
 
 section.dark .section-title{
@@ -323,7 +317,7 @@ section.dark .section-title::before{
 }
 
 section.dark .section-title::after{
-  border: 4px solid #353b48;
+  border: 4px solid #2D3034;
 }
 
 .services{
@@ -335,7 +329,7 @@ section.dark .section-title::after{
 .service{
   width: calc(33% - 20px);
   text-align: center;
-  border: 1px solid #48dbfb;
+  border: 1px solid #BB8FCE;
   border-radius: 6px;
   margin: 20px 0;
   padding: 40px 20px;
@@ -345,7 +339,7 @@ section.dark .section-title::after{
 }
 
 .service .icon{
-  color: #48dbfb;
+  color: #BB8FCE;
   font-size: 40px;
   margin-bottom: 20px;
   transition: .3s linear;
@@ -357,7 +351,7 @@ section.dark .section-title::after{
 }
 
 .service:hover{
-  background-color: #48dbfb;
+  background-color: #BB8FCE;
 }
 
 .service:hover .icon{
@@ -372,8 +366,8 @@ section.dark .section-title::after{
 
 .block{
   width: calc(50% - 20px);
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #40204F;
+  border: 1px solid #fff;
   margin: 10px 0;
   padding: 30px;
   position: relative;
@@ -384,7 +378,7 @@ section.dark .section-title::after{
   position: absolute;
   width: 1px;
   height: 120%;
-  background-color: #ddd;
+  background-color: #fff;
   left: -20px;
   top: 50%;
   transform: translateY(-50%);
@@ -395,7 +389,7 @@ section.dark .section-title::after{
   position: absolute;
   width: 16px;
   height: 16px;
-  background-color: #48dbfb;
+  background-color: #40204f;
   left: -28px;
   top: 30px;
   border-radius: 50%;
@@ -408,7 +402,7 @@ section.dark .section-title::after{
 
 .block p{
   font-size: 15px;
-  color: #444;
+  color: #fff;
 }
 
 .work{
@@ -432,7 +426,7 @@ section.dark .section-title::after{
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: #48dbfbcc;
+  background-color: #48dbf;
   transition: .2s linear;
   opacity: 0;
   transform: scale(0);
@@ -469,7 +463,7 @@ section.dark .section-title::after{
 .contact-info .item{
   width: calc(33% - 20px);
   height: 160px;
-  background-color: #353b48;
+  background-color: #40204F;
   color: #fff;
   text-align: center;
   border-radius: 4px;
@@ -485,7 +479,7 @@ section.dark .section-title::after{
 }
 
 .contact-info .item:hover{
-  background-color: #48dbfb;
+  background-color: #7c1a51;
 }
 
 .contact-form{
@@ -498,7 +492,7 @@ section.dark .section-title::after{
   width: 100%;
   height: 50px;
   margin: 10px 0;
-  background-color: #353b48;
+  background-color: #40204F;
   border: none;
   outline: none;
   padding: 20px;
@@ -518,9 +512,9 @@ section.dark .section-title::after{
 .contact-form .btn{
   width: 180px;
   background-color: transparent;
-  color: #48dbfb;
-  font-size: 16px;
-  border: 2px solid #48dbfb;
+  color: #273535;
+  font-size: 18px;
+  border: 2px solid #40204f;
   padding: 0;
   margin-left: auto;
   cursor: pointer;
@@ -528,14 +522,14 @@ section.dark .section-title::after{
 }
 
 .contact-form .btn:hover{
-  background-color: #48dbfb;
+  background-color: #BB8FCE;
   color: #fff;
 }
 
 footer{
-  background: url(../images/bg.jpg) no-repeat center;
+  background: url(../images/footer.jpg) no-repeat center;
   color: #fff;
-  padding: 80px 0;
+  padding: 80px;
   text-align: center;
 }
 
@@ -557,7 +551,7 @@ footer{
   right: 40px;
   width: 40px;
   height: 40px;
-  background-color: #48dbfb;
+  background-color: #BB8FCE;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -664,4 +658,3 @@ footer{
     max-width: 100%;
   }
 }
-
